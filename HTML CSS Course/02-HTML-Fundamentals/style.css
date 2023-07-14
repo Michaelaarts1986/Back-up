@@ -1,0 +1,194 @@
+/* Universele selector beinvloed alle elementen op de website */
+
+* {
+  /* border-top: 5px solid #1d2cb6; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 5px solid #1d2cb6;
+}
+
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1d2cb6;
+  border-bottom: 5px solid #1d2cb6;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #1d2cb6;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*
+article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related-posts {
+  list-style: none;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  /* color: red; */
+
+/* dit werkt niet */
+article p:first-child {
+  color: red;
+}
+
+/* Styling links // LVHA */
+a:link {
+  color: #1d2cb6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1d2cb6;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* voorbeeld prioriteit
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.tekst {
+  color: yellow;
+}
+/* important wordt nooit gebruikt tenzij je er echt niet uit komt*/
+/* footer p {
+  color: green !important;
+} */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}

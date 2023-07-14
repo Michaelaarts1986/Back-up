@@ -1,0 +1,42 @@
+Object Orientation
+
+IDE
+
+StarUML
+Violet UML
+
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/
+
+Association - eigenaar geeft eten aan dier, dier pleases eigenaar
+
+Aggregation - een staart is een deel van een kat of hond
+
+Composition - een staart is een deel van een kat / maar als de kat dood gaat dan is er geen staart meer
+
+class diagram
+
+use case diagram
+
+sequence diagram
+
+NIAM voorloper UML
+
+Java
+
+Object  = instantie van een klasse
+
+Reference variable = ergens anders variabelen vandaan halen
+
+Methode = functie
+
+Abstract class = mag deze niet aanmaken (persoon kan ik niet maken maar wel een soldaat) (kan een template worden wat wordt uitgebreid door een class)
+
+design patterns / head first design patterns
+
+interface = class met alleen maar methodes heeft (vb Television)
+
+static = vaste classname, je hoeft geen instantie te maken
+final = kan je niet aanpassen
+dry = dont repeat yourself
+
+

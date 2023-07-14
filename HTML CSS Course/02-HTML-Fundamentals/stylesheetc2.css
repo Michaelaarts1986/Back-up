@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+/* .container {
+  width: 825px;
+  margin: 0 auto;
+} */
+
+/* PRODUCT */
+
+.product {
+  border: 4px solid #000000;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.product-titel {
+  background-color: rgb(238, 238, 238);
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  grid-column: 1 / -1;
+}
+
+/* .row {
+  align-items: center;
+  gap: 40px;
+} */
+
+.sale {
+  content: "Sale";
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  padding: 10px 20px;
+  top: -20px;
+  left: -50px;
+}
+
+/* PRODUCT INFO */
+/* .product-info {
+  justify-self: center;
+  align-self: center;
+} */
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: #777;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.link {
+  margin-bottom: 25px;
+}
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.colorpicker {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  height: 25px;
+  width: 25px;
+}
+
+.color-red {
+  background-color: #ff0000;
+}
+
+.color-blue {
+  background-color: #003cff;
+}
+
+.color-black {
+  background-color: #000000;
+}
+
+.color-yellow {
+  background-color: #fffb00;
+}
+
+.color-green {
+  background-color: #2bff00;
+}
+
+.color-brown {
+  background-color: #814900;
+}
+
+/* PRODUCT DETAILS */
+/* .details-column {
+  justify-self: center;
+  align-self: center;
+} */
+
+.product-details {
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.details-list li {
+  list-style-type: square;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.add-to-cart {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid #000000;
+  grid-column: 1 / -1;
+}
+.add-to-cart:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}
