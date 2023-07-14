@@ -1,0 +1,42 @@
+hoe gaan we om met updatenummers
+semver.org
+
+GitHUB
+check directory
+git remote -v
+
+--Nieuw master--
+git add .
+git commit -am " tekst "
+git remote add origin master <link>
+git push -u origin master
+git s
+cd <map>
+git branch <link> (alleen branch maken)
+
+--Nieuwe branche maken--
+git checkout -b "newbranch"
+git push -u origin "newbranch"
+git status
+
+--Merge branch naar master--
+git checkout master
+git pull
+
+--Haal van GitHUB op--
+git clone <link>
+
+2 rondje
+git pull
+git checkout featureMat
+git merge master
+git push
+pull request
+
+git fetch origin -p (
+git branch -d (branch verwijderen)
+git branch -a (zijn 3 branches)
+
+--File aanpassen--
+vim <file>
+
