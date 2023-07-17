@@ -1,3 +1,5 @@
+Kubernetes is een dirigent voor docks (containers virtual machine)
+
 hoe gaan we om met updatenummers
 semver.org
 
