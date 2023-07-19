@@ -1,0 +1,86 @@
+UML
+verschillende niveaus
+0 tot 5
+
+
+use case diagram
+
+klassendiagram
+fase van syteem ontwikkeling
+functioneel ontwerp/strategie
+-concept (gebruikers georienteerd, eerste communicatie met stakeholders)
+-analyse
+ontwerp
+implementatie
+
+actie is een use-case (opname, storting, rekening toevoegen)
+
+include - moet verplicht 
+extend - niet verplicht
+
+use-cases worden uitgewerkt in een template
+aannamen = toestand van het systeem bij de start van de use-case
+
+multipliciteit/cardinaliteit
+one-to-one / one-to-many / many-to-many
+
+is  ...  a ... (parent-child) dichte pijl
+has ... a ... () open pijl
+
+aggregatie open wiebertje - kan overleven zonder
+compositie dicht wiebertje - gaat dood zonder
+
+enum = vaste waardes waar je uit kan kiezen
+
+https://khalilstemmler.com/articles/uml-cheatsheet/
+
+-----
+
+webshop voor het festival van YC - coolblue als voorbeeld
+verlanglijstje
+winkelmandje toevoegen
+'vaste klanten' de mogelijkheid hebben om kortiginscodes te gebruiken
+bestelling plaatsen ophalen YC cash of pin of verstuurd ideal eigen magazijn 1-3 dagen
+categorieen (kleding, laarzen, gekke brillen, boa) 
+zoeken dmv filter (cat) (prijs,kledingmaat, kleuren, tussen producten)
+zoekfunctie
+producten (stockfoto,s) voorraden
+review achterlaten dmv sterren + tekst / alleen 'vaste klanten' mogen dit
+'vaste klant' hebben een account - op het moment dat iemand dit wordt krijgt altijd 10% korting
+policys - hoeven we niet overna te denken
+factuuradres eventueel 
+
+8 a 10 klassen
+
+---------------
+
+WireFrames
+prototypes maken
+
+---------------
+
+SQL
+
+database is een verzameling van data dat gemanipuleerd kan worden
+Create [INSERT INTO]
+Retrieve [SELECT]
+Update
+Delete
+
+SQL JOIN = tijdelijke fictieve 3e tabel maken van 2 verschillende tabellen
+SQL statement for JOIN
+SELECT * 
+FROM autos 
+LEFT JOIN eigenaren 
+ON eigenaren.id = eigenaar_id 
+WHERE eigenaren.id = 4;
+
+w3schools voor meer info
+
+http://lms.codefounders.nl/lessonModules(sidebar:tags)
+
+
+
+flat file is een tabel, een sheet met kenmerken en properties
+
+
